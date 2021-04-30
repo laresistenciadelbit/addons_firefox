@@ -1,0 +1,18 @@
+{
+
+  "description": "This add-on show only english content in nhentai .net/.com",
+  "manifest_version": 2,
+  "name": "nhentaieng",
+  "version": "2.2",
+  "icons": {
+    "48": "icons/nhlogo.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://nhentai.net/*","*://nhentai.com/*"],
+      "js": ["assets/js/jquery-3.6.0.min.js","nhentaieng.js"]
+    }
+  ]
+
+}

@@ -1,0 +1,31 @@
+{
+
+  "description": "Quita por fin el anaranjado y cancerígeno estilo de la web",
+  "manifest_version": 2,
+  "name": "mnmtheme",
+  "version": "2.0",
+  "icons": {
+    "48": "icons/mnmtheme.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.meneame.net/*"],
+      "js": ["assets/js/jquery-3.6.0.min.js","mnmtheme.js"]
+    }
+  ],
+  
+  
+   "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": ["storage"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{dd351cf3-82b0-42ca-ad0f-7356f2d7f018}"
+    }
+  }
+
+}
