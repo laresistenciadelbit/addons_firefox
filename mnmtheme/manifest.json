@@ -3,7 +3,7 @@
   "description": "Quita por fin el anaranjado y cancerígeno estilo de la web",
   "manifest_version": 2,
   "name": "mnmtheme",
-  "version": "2.0",
+  "version": "2.1",
   "icons": {
     "48": "icons/mnmtheme.png"
   },
@@ -11,6 +11,8 @@
   "content_scripts": [
     {
       "matches": ["*://www.meneame.net/*"],
+	  "css": ["assets/style.css"],
+	  "run_at": "document_start",
       "js": ["assets/js/jquery-3.6.0.min.js","mnmtheme.js"]
     }
   ],

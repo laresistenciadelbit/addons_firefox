@@ -1,0 +1,19 @@
+#newsletter{
+	position:absolute;
+	visibility:hidden;
+}
+#toplink,#toplink a.footer,.popular-link-widget-right a.meneame-button,.news-details a.comments,.menealo a,.header-top-wrapper,.menealo span,.news-shakeit .clics,.news-shakeit .votes,.label-mnm, .badge-mnm{
+background-color: #eeeeee;
+}
+.sidebox-rounded.orange .header,.sidebox.brown .header,fieldset,.header,.commentform.warn,.comment-body,.comment.high .comment-body,.comment.high.author .comment-body,.header-menu01 .selected a{
+background: #eeeeee;
+}
+.menealo a{
+	background-image:none;
+}
+.news-submitted a,.news-shakeit,.news-shakeit .votes a,.news-details a:link,.news-details button,#toplink h1 a,.sidebox h4 a, .sidebox h4 span,.news-details a i, .news-details button i,.news-details span.votes-up i, .news-details span.karma-letter, .news-details span.votes-anonymous i, .news-details span.votes-down i,h2,.sidebox .votes span, .sidebox .clics span,.sidebox-rounded div.finished, .sidebox-rounded .show-responses,.pages a, .pages span, .widget-popular-links-slider .link-info a.author, .popular-link-widget-right div.subtitle,.news-summary .warn, .story-blog .warn,.news-details a:link, .news-details a:visited, .news-tags, .news-tags a:link, .news-tags a:visited,.comment-header a,.commentform.warn.white, .commentform.warn a,.story-blog .main-content .text a, .section.section-article-submit .input-editable a,.header-menu01 a.submit_new_post, .header-menu01 a.submit_new_article,.section h1, select,.section-profile .contents-layout .contents-submenu a,.btn.btn-mnm.btn-inverted, .note, ul#userinfo a.notifications span, #notifier_panel div,.featured-links-b .featured-links-item-container a.featured-links-item-date{
+	color:#eeeeee;
+}
+.sidebox .votes span, .sidebox .clics span,.news-shakeit.mnm-queued .votes, .news-shakeit.mnm-queued .clics{
+	border:transparent;
+}
