@@ -3,7 +3,7 @@
   "description": "Quita por fin el anaranjado y cancerígeno estilo de la web",
   "manifest_version": 2,
   "name": "mnmtheme",
-  "version": "2.1",
+  "version": "2.2",
   "icons": {
     "48": "icons/mnmtheme.png"
   },
