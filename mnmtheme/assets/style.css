@@ -20,3 +20,6 @@ background: #888888;
 .comment-body{
 	background:#eeeeee
 }
+.story-blog .story-blog-aside.sticky{
+position:relative;
+}
