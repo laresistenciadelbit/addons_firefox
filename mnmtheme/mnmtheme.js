@@ -92,7 +92,9 @@ function onGot(item)
 		$(".sidebox-rounded div.finished, .sidebox-rounded .show-responses").css("color","#"+c[2]);
 		$(".sidebox .mainsites a").css("color","#"+c[0]);
 		$("#footcol1 h5, #footcol2 h5, #footcol3 h5, #footcol4 h5, #footcol5 h5").css("color","#"+c[0]);
-		$(".pages span.current, .pages a:hover").css("background-color","#"+c[0]);
+		$(".pages span.current").css("background-color","#"+c[0]);
+		$(".pages a").hover(function(){$(this).css("background","#"+c[0]);$(this).css("color","white");}, function(){$(this).css("background","transparent");$(this).css("color","#"+c[0]);} );
+//		$("a").hover(function(){$(this).css("color","#"+c[0]);}, function(){$(this).css("color","#03a");} );
 		$(".pages span.current, .pages a").css("border","solid 1px #"+c[0]);
 		$(".pages a, .pages span, .widget-popular-links-slider .link-info a.author, .popular-link-widget-right div.subtitle").css("color","#"+c[0]);
 		$(".pages span.current").css("color","#ffffff");
