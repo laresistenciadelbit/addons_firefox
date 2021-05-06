@@ -1,0 +1,177 @@
+:root {
+	--c0:#456780;
+	--c1:#c5d7f5;
+	--c2:#3050a0;
+	--c3:#b5c7f0;
+	--c4:#4567a0;
+	--c5:#b9cadf;
+	--c6:#456790;
+	--c7:#ddeeff;
+	--c8:#5577b0;
+	--c9:#355580;
+	--c10:#d8e9ff;
+	--c11:#a8b9cf;
+	--c12:#9899bf;
+}
+
+body{
+	background-color:#eee !important;
+}
+#newsletter,.section-profile-header-medals{
+	display:none !important;
+}
+.story-blog .story-blog-aside.sticky{
+	position:relative !important;
+}
+.sidebox .votes,.sidebox .clics{
+	border-radius:25px !important;
+}
+.sidebox .votes span, .sidebox .clics span,.news-shakeit.mnm-queued .votes, .news-shakeit.mnm-queued .clics{
+	border:transparent !important;
+}
+#footthingy p{
+	border-bottom:none !important;
+}
+.uploadFile-button,.sidebox .warn{
+	-webkit-filter:invert(70%) !important;
+	filter:invert(70%) !important;
+}
+.contents-menu .selected img{
+	filter:invert(1) !important;
+}
+
+/*bg-color*/
+.menealo a,.header-top-wrapper,.pages span.current,.menealo span{
+	background-color:var(--c0) !important;
+}
+.news-shakeit .votes,.news-shakeit .clics,#toplink{
+	background-color:var(--c1) !important;
+}
+#toplink a.footer,.popular-link-widget-right a.meneame-button{
+	background-color:var(--c2) !important;
+}
+.news-details a.comments{
+	background-color:var(--c3) !important;
+}
+.label-mnm, .badge-mnm{
+	background-color:var(--c6) !important;
+}
+
+/*bg*/
+.header,.pages a:hover,.commentform.warn,legend, legend a, legend a:visited,.rich-edit-key, input[type='button'], input[type='submit']{
+	background:var(--c0) !important;
+}
+fieldset{
+	background:var(--c7) !important;
+}
+.comment-body{
+	background:var(--c10) !important;
+}
+.comment.high .comment-body{
+	background:var(--c11) !important;
+}
+.comment.high.author .comment-body{
+	background:var(--c12) !important;
+}
+pages a,.header-menu01 ul li a,#footthingy,.header-menu01 ul li a{
+	background:transparent !important;
+}
+.header-menu01 ul li a:hover{
+	background:url("data:image/png !important;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoBAAMAABgSJwBOl0A/AAB2AAD+9IiH/jduMN+C7/yC5YXXEYAAAA") repeat-x 100% 100% !important;
+}
+.header-menu01 .selected a{
+	background:url('data:image/png !important;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoBAAMAABgSJwBOl0A/AAB2AAD+9IiH/jduMN+C7/yC5YXXEYAAAA') repeat-x 100% 100% !important;
+}
+/*bg-image*/
+.menealo a{
+	background-image:linear-gradient(-180deg, var(--c8) 0%, var(--c9) 100%) !important;
+}
+.popular-link-widget-right a.meneame-button{
+	background-image:none !important;
+}
+
+.news-summary .warn::before{
+	color:var(--c2) !important;
+	content:'\f071' !important;
+}
+
+/*color*/
+h2,.news-shakeit .votes a,.news-shakeit,.news-details button,.news-submitted a,.header-menu01 a.submit_new_post,.header-menu01 a.submit_new_article,.sidebox .votes span, .sidebox .clics span,.sidebox .mainsites a,#footcol1 h5, #footcol2 h5, #footcol3 h5, #footcol4 h5, #footcol5 h5,.pages a, .pages span, .widget-popular-links-slider .link-info a.author, .popular-link-widget-right div.subtitle,.news-details a:link, .news-details a:visited, .news-tags, .news-tags a:link, .news-tags a:visited,.comment-header a,.header-menu01 ul li a:hover, .sidebox h5 a:hover, .sidebox .comments a:hover, .sidebox .tagcloud a:hover,.story-blog .main-content .text a, .section.section-article-submit .input-editable a,.section h1, select,.featured-links-b .featured-links-item-container a.featured-links-item-date
+{
+	color:var(--c0) !important;
+}
+.sidebox-rounded div.finished, .sidebox-rounded .show-responses,.news-summary .warn, .story-blog .warn,.section-profile .contents-layout .contents-submenu a
+{
+	color:var(--c2) !important;
+}
+.news-details span.votes-up i, .news-details span.karma-letter, .news-details span.votes-anonymous i, .news-details span.votes-down i
+{
+	color:var(--c3) !important;
+}
+#toplink h1 a,.news-details a i, .news-details button i
+{
+	color:var(--c4) !important;
+}
+.commentform.warn.white, .commentform.warn a{
+	color:var(--c5) !important;
+}
+.btn.btn-mnm.btn-inverted, .note, ul#userinfo a.notifications span, #notifier_panel div{
+	color:var(--c6) !important;
+}
+
+.sidebox h4 a, .sidebox h4 span,                 .pages a:hover, .pages span.current,               .featured-links-b .header .title{
+	color:#bebebe !important;
+}
+/*.pages a:hover, .pages span.current             ,.featured-links-b .header .title{
+	color:white !important;
+}*/
+.header-menu01 ul li a, .sidebox h5 a, .sidebox .comments a, .sidebox .tagcloud a{
+	color:black !important;
+}
+
+/*borders*/
+.pages span.current, .pages a, .btn.btn-mnm.btn-inverted{
+	border:1px solid var(--c0) !important;
+}
+.sidebox .votes span, .sidebox .clics span{
+	border:2px solid var(--c0) !important;
+}
+ul#userinfo a.notifications span, #notifier_panel div{
+	border:3px solid var(--c0) !important;
+}
+.pages span.nextprev{
+	border:1px solid var(--c1) !important;
+}
+#footthingy p{
+	border-bottom:none !important;
+}
+.news-shakeit.mnm-queued .votes, .news-shakeit.mnm-queued .clics{
+	border:transparent !important;
+}
+.commentform.warn.white{
+	border:2px solid var(--c5) !important;
+}
+.menealo span{
+	border:1px solid var(--c2) !important;
+}
+.menealo span{
+	border-bottom:1px solid var(--c0) !important;
+}
+.section-profile .contents-layout .contents-submenu{
+	border-bottom:1px solid var(--c1) !important;
+}
+/*
+#toplink,#toplink a.footer,.popular-link-widget-right a.meneame-button,.news-details a.comments,.menealo a,.header-top-wrapper,.menealo span,.news-shakeit .clics,.news-shakeit .votes,.label-mnm, .badge-mnm{
+background-color: #888888;
+}
+.sidebox-rounded.orange .header,.sidebox.brown .header,fieldset,.header,.commentform.warn,.comment.high .comment-body,.comment.high.author .comment-body,.header-menu01 .selected a{
+background: #888888;
+}
+
+.news-submitted a,.news-shakeit,.news-shakeit .votes a,.news-details a:link,.news-details button,#toplink h1 a,.sidebox h4 a, .sidebox h4 span,.news-details a i, .news-details button i,.news-details span.votes-up i, .news-details span.karma-letter, .news-details span.votes-anonymous i, .news-details span.votes-down i,h2,.sidebox .votes span, .sidebox .clics span,.sidebox-rounded div.finished, .sidebox-rounded .show-responses,.pages a, .pages span, .widget-popular-links-slider .link-info a.author, .popular-link-widget-right div.subtitle,.news-summary .warn, .story-blog .warn,.news-details a:link, .news-details a:visited, .news-tags, .news-tags a:link, .news-tags a:visited,.comment-header a,.commentform.warn.white, .commentform.warn a,.story-blog .main-content .text a, .section.section-article-submit .input-editable a,.header-menu01 a.submit_new_post, .header-menu01 a.submit_new_article,.section h1, select,.section-profile .contents-layout .contents-submenu a,.btn.btn-mnm.btn-inverted, .note, ul#userinfo a.notifications span, #notifier_panel div,.featured-links-b .featured-links-item-container a.featured-links-item-date{
+	color:#888888;
+}
+.comment-body{
+	background:#eeeeee
+}
+*/
