@@ -23,7 +23,7 @@ function onGot(item)
 			c[7]="ddeeff";
 			c[8]="5577b0";
 			c[9]="355580";
-			c[10]="d8e9ff";
+			c[10]="c8d9ef";
 			c[11]="a8b9cf";
 			c[12]="9899bf";
 		break;
@@ -38,7 +38,7 @@ function onGot(item)
 			c[7]="ddffee";
 			c[8]="55b077";
 			c[9]="358055";
-			c[10]="d8ffe9";
+			c[10]="c8efd9";
 			c[11]="a8cfb9";
 			c[12]="98bf99";			
 		break;
@@ -53,7 +53,7 @@ function onGot(item)
 			c[7]="eeddff";
 			c[8]="7755b0";
 			c[9]="553580";
-			c[10]="e9d8ff";
+			c[10]="d9c8ef";
 			c[11]="b9a8cf";
 			c[12]="9998bf";			
 		break;
@@ -111,7 +111,7 @@ function onGot(item)
 		//fondo de comentarios
 		$(".comment-body").css("background","#"+c[10]);
 		$(".comment.high .comment-body").css("background","#"+c[11]);
-		$(".comment.high.author .comment-body").css("background","#"+c[12]);
+		$(".comment.high.author .comment-body,.comment.author .comment-body").css("background","#"+c[12]);
 
 		$(".comment-header a").css("color","#"+c[0]);
 		$(".commentform.warn.white, .commentform.warn a").css("color","#"+c[5]);
