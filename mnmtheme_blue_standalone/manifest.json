@@ -2,14 +2,14 @@
   "description": "Convierte el estilo radiactivo de menéame en un azul mas apacible",
   "manifest_version": 2,
   "name": "mnmtheme_blue_standalone",
-  "version": "1.0",
+  "version": "1.2",
   "icons": {
     "48": "icons/mnmtheme.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://www.meneame.net/*"],
+      "matches": ["*://old.meneame.net/*"],
 	  "css": ["assets/style.css"],
 	  "run_at": "document_start"
     }
