@@ -3,13 +3,14 @@ let doThis=true;
 if(!window.location.pathname.includes("/wholesale"))
 	doThis=false;
 
-//Si aliexpress modificase en el futuro la clase "vcAi3", aún así la buscaríamos aquí a partir de la string "+envío:"
+//Cuando no utiliza la clase "vcAi3" la buscamos aquí a partir de la string "+envío:"
 if ( doThis && document.getElementsByClassName(searchingClass).length == 0 ) {
 	let limit=50;
 	let shippingCostIndex = document.body.innerHTML.indexOf("+envío:");
 	
-	if(shippingCostIndex > -1 && shippingCostIndex > document.body.innerHTML.indexOf("let searchingClass="))
-		shippingCostIndex = -1;
+	//if comentado; servía para que me funcione el código con el addon "javascript" de "chee"
+	//if(document.body.innerHTML.indexOf("let searchingClass=") > -1 && shippingCostIndex > -1 && shippingCostIndex > document.body.innerHTML.indexOf("let searchingClass="))
+	//	shippingCostIndex = -1;
 	
 	if(shippingCostIndex > -1) {
 		let classStartIndex = shippingCostIndex - limit + (document.body.innerHTML.substr(shippingCostIndex-limit, limit)).lastIndexOf("=")+2;
