@@ -1,6 +1,6 @@
 let searchingClass="vcAi3";
 let doThis=true;
-if(window.location.pathname != "/wholesale")
+if(!window.location.pathname.includes("/wholesale"))
 	doThis=false;
 
 //Si aliexpress modificase en el futuro la clase "vcAi3", aún así la buscaríamos aquí a partir de la string "+envío:"
